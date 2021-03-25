@@ -1,108 +1,15 @@
-.horizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.darkpurple-border {
+    border: 5px solid rgb(107, 2, 107) ;
+    margin: 20px;
+    padding: 10px;
 }
 
-.horizontaal {
-    display: inline;
-}
-
-p, header, section, nav, footer {
-    padding: 20px;
-    margin: 20px 0px; 
-}
-
-section {
-    padding: 20px;
-    margin: 20px 0px;
-}
-
-body { 
-    font-family: Verdana, sans-serif;
-    font-size: 16px;
-    color: black;
-}
-
-#plum-background {
-    background-color: plum;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-size:x-large;
-    color: black;
-}
-
-.plum-border {
-    border: 5px solid plum;
-}
-
-.seagreen-border {
-    border: 5px solid seagreen;
-}
-
-.darkplum-border {
-    border: 5px solid rgb(107, 2, 107);
-}
-
-.black-border {
-    border: 5px solid black;
-}
-
-.darkgoldenrod-border {
-    border: 5px solid darkgoldenrod;  
-}
-
-section * {
-    font-family: monospace;
-    background-color: seagreen;
-    color: seashell;
-}
-
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightyellow;
-}
-
-header * {
-    background-color: darkgoldenrod;
-    font-size: x-large;
-    color: black;
-}
-
-nav {
-    font-size: small;
-    font-style: italic;
-    color: black;
-    padding: 20px;
-    margin: 20px 0px;
-}
-
-footer * {
-    background-color: darkgoldenrod;
-    font-size: x-small;
-    color: black;
-}
-
-img.photo {
-	border: 1px solid #999;
-	background-color: #fcfcfc;
-	padding: 4px;
-}
-
-.background {
-    background-color: darkgoldenrod;
-    font-family: monospace;
-    color: whitesmoke
-}
-
-
-div {
-    text-align: center;
-}
-
-h1, a {
-    text-align: center;
+.center-title {
+    margin: 0 auto;
     width: 500px;
-    margin: auto;
-    padding: 20px;
+}
+
+.navigation-links li {
+    display: inline;
+    margin: 10px;
 }
